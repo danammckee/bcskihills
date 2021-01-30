@@ -4,11 +4,11 @@
 }
 
 body {
-    	font-family: 'Hind', sans-serif;
+    font-family: 'Hind', sans-serif;
 	height: 100%;
 }
 
-/* Style the header */
+
 .titleblock {
   background-color: rgb(42, 160, 160);
   padding: 30px;
@@ -27,7 +27,40 @@ body {
 	font-size: 30px;
 }
 
-/* Set up Footer block CSS to be set to the bottom of the page and not underlay vertival side nav bar [Dana McKee]*/
+.nav {
+  overflow: hidden;
+  background-color: LightGray;
+  border: 3px solid #686868;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+
+/* Link text to the left, small padding around it */
+li a {
+  float: left;
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+/* nav bar link text styling, bold */
+ul {
+  list-style-type: none;
+  font-family: Yusei Magic, Avantgarde, Veranda, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+/* This allows the colour to change to another colour as the user is hovering on of of the nav bar links */
+li a:hover {
+  background-color: rgb(42, 160, 160);
+  color: black;
+}
+
+
 .footer {
     position: relative;
     bottom: 0;
@@ -40,22 +73,18 @@ body {
     padding: 4px 0 4px 0;
 }
 
-/* START: FOOTER CSS [Dana McKee] */
-/* Set up Footer text CSS [Dana McKee]*/
 .footertext {
 	position: relative;
 	color: white;
 	text-align: center;
-	padding: 1px;
 }
 
 .footertext2 {
 	position: relative;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	padding: 1px;
 }
 
 
